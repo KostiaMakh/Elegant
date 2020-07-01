@@ -101,12 +101,19 @@ h3{
 }
  .button{
      font-size: 14px;
-     color: #021725;
+     color: #20323f;
      padding: 22px 50px;
      border: black 1px solid;
      text-decoration: none;
-
+     font-family: 'Open Sans';
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
  }
+.button:hover{
+    background-color: #20323f;
+    color: white;
+}
 .who_we_are p{
     color: #3f4951;
     line-height: 34px;
@@ -198,7 +205,8 @@ h3{
 }
 .last_post {
     max-width: 755px;
-    margin: auto;
+    margin: 0 auto 160px;
+    text-align: center;
 }
 .last_post .ast_post_img {
     width: 50%;
@@ -216,11 +224,91 @@ h3{
     padding: 43px 20px 0 40px;
 }
 .last_post .post p{
-font-size: 16px;
-display: block;
-font-family: 'Open Sans';
-font-weight: 300;
-text-align: left;
-line-height: 25px;
-margin-bottom: 77px;
+    font-size: 16px;
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 77px;
+    color: #65707a;
+}
+.last_post .date{
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #65707a;
+}
+.last_post .author{
+    font-size: 30px;
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 33px;
+    color: #65707a;
+}
+.contact_us {
+    max-width: 755px;
+    margin: 0 auto 160px;
+    text-align: center;
+}
+.contact_us .map{
+    height: 300px;
+    margin: 52px;
+}
+.contact_us .contacts_block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    margin-bottom: 80px;
+}
+.contact_us .contacts_block .contact{
+    width: 50%;
+    text-align: center;
+    padding: 0 40px 0;
+    box-sizing: border-box;
+    margin-bottom: 96px;
+}
+.contacts_block .contact span{
+    font-size: 13px;
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 50px;
+    color: #505d68;
+}
+.contacts_block .contact .item{
+    font-size: 19px;
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    color: #505d68;
+    line-height: 34px;
+    text-decoration: none;
+}
+footer{
+    background-color: #eeeeee;
+    padding: 42px 0;
+}
+footer .container{
+    max-width: 755px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+footer .container a{
+    text-decoration: none;
+    color: #828990;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 300;
 }
